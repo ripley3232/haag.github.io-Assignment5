@@ -7,6 +7,33 @@ body {
     color: #333;
 }
 
+.navigation {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+}
+
+.nav-link {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #8b4513;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: rgba(139, 69, 19, 0.1);
+}
+
+.nav-link.active {
+    background-color: #8b4513;
+    color: white;
+}
+
 .container {
     text-align: center;
     background: white;
@@ -33,4 +60,35 @@ img {
     height: auto;
     border-radius: 8px;
     margin: 20px 0;
+}
+
+/* Page 2 specific styles */
+.bordered-section {
+    border: 3px solid #8b4513;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    background-color: #faf8f5;
+}
+
+p {
+    text-align: left;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Page 3 specific styles */
+.subheading {
+    color: #d2691e;
+    margin: 20px 0 15px 0;
+}
+
+.special-font {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    line-height: 1.6;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f0f8ff;
+    border-radius: 5px;
 }
