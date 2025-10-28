@@ -4,19 +4,20 @@ body {
     margin: 50px auto;
     padding: 20px;
     color: #333;
+    min-height: 100vh;
 }
 
 /* Page-specific background colors */
 body.page1 {
-    background-color: #f9f7f4;
+    background-color: #f9f7f4 !important;
 }
 
 body.page2 {
-    background-color: #e8f4f8;
+    background-color: #e8f4f8 !important;
 }
 
 body.page3 {
-    background-color: #f0f8e8;
+    background-color: #f0f8e8 !important;
 }
 
 .navigation {
