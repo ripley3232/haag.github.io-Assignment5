@@ -3,8 +3,20 @@ body {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #e8f4f8;
     color: #333;
+}
+
+/* Page-specific background colors */
+body.page1 {
+    background-color: #f9f7f4;
+}
+
+body.page2 {
+    background-color: #e8f4f8;
+}
+
+body.page3 {
+    background-color: #f0f8e8;
 }
 
 .navigation {
